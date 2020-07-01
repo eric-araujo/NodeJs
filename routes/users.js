@@ -78,7 +78,7 @@ module.exports = (app) => {
 
             } else {
 
-                res.status(200).json(Object.assign(req.params, req.body));
+                res.status(200).json(req.body);
 
             }
 
